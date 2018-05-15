@@ -1,0 +1,9 @@
+DIM x AS INTEGER
+
+CLS
+
+FOR x = 1 TO 50
+    RANDOMIZE TIMER
+    PRINT x; INT(RND * 10)
+NEXT x
+
